@@ -1,0 +1,161 @@
+#last-ellipse
+{  
+    -webkit-transform:rotate(180deg);  
+    -moz-transform: rotate(180deg);  
+    -ms-transform: rotate(180deg);  
+    -o-transform: rotate(180deg);  
+    transform: rotate(180deg); 
+    image-orientation: 180deg;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .navbar navbar-expand-lg navbar{
+    color: #4B4B4B;
+  }
+#lady{
+  overflow: hidden;
+}
+.card-body{
+    background-color:#FFF3F1;
+}
+#cake{
+    max-width:80px;
+    max-height:100px;
+    position: absolute;
+    right:0;
+    top: 0;
+    transform: translate(50%,-50%);
+    z-index: 100;
+    overflow: hidden;
+  }
+  #donut{
+    max-width:80px;
+    max-height: 80px;
+    position: absolute;
+    right: 0;
+    top:0;
+    transform: translate(50%,-50%);
+    z-index: 100;
+    overflow: hidden;
+  }
+  footer{
+      color:aliceblue;
+      background-color: #4B4B4B;
+  }
+  .navbar.navbar-expand-lg.navbar a{
+    color:black;
+  }
+.cover{
+    background:url("Ellipse 1.svg");
+    background-repeat: no-repeat;
+ }
+ .maintext{
+   padding-top:100px;
+   padding-bottom: 40px;
+   position: relative;
+ }
+ .cards{
+   padding-bottom:50px;
+ }
+ .cards p{
+   font-size:1.2rem;
+    list-style:2rem;
+ }
+ .card{
+   border-radius:7%;
+   padding-top:10px;
+ }
+ .card-body{
+   border-radius:7%;
+ }
+ .featured{
+   font-size: 2em;
+   padding-top:40px;
+   position: relative;
+   padding-bottom:10px;
+ }
+ .featured::after{
+  content:'';
+  height:6px;
+  width:250px;
+  background:#f39898;;
+  position: absolute;
+  left:2.5%;
+  bottom:0;
+}
+ .sneaky{
+   font-size: 2em;
+   padding-top:50px;
+   position: relative;
+   padding-bottom:10px;
+ }
+ .sneaky::after{
+   content:'';
+   height:6px;
+   width:210px;
+   background:#f39898;
+   position: absolute;
+   left:2.5%;
+   bottom:0;
+ }
+ .details{
+   font-size:1.8rem;
+ }
+ .plain{
+   font-size:1.2rem;
+   font-style: italic;
+   color:#4B4B4B;
+ }
+ footer{
+   padding-top:50px;
+   padding-bottom:50px;
+   width:100%;
+ }
+ #fb{
+   padding-right:18px;
+ }
+ .footer h4{
+      padding-bottom:10px;
+ }
+.section-2{
+  position: static;
+  background: #FFF3F1;
+  z-index:-1;
+  width:100%;
+}
+
+ @media only screen and (max-width: 599px){
+   header{
+    background: #FFF3F1;
+   }
+   #last-ellipse{
+     display:none;
+   }
+   #lady{
+     padding-top:20px;
+   }
+   .blank{
+     padding:0;
+   }
+ }
+ @media only screen and (min-width: 600px){
+header{
+  background: #FFF3F1 url("ellipse-1-copy.svg");
+  background-repeat: no-repeat;
+  background-position:75% 0%;
+  z-index:-1;
+}
+#last-ellipse{
+  position: relative;
+  bottom:200px;
+  overflow: hidden;
+  float: right;
+}
+#lady{
+  padding-top:150px;
+}
+.blank{
+  padding:10px;
+}
+}
